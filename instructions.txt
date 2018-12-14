@@ -1,0 +1,21 @@
+
+Take Home Challenge
+Publish a small service on the web that has two endpoints:
+
+1. /messages takes a message (a string) as a POST and returns the SHA256 hash digest of that
+message (in hexadecimal format)
+
+2. /messages/<hash> is a GET request that returns the original message. A request to a non-existent
+<hash> should return a 404 error.
+
+You need to deploy your service to a publicly accessible url.
+
+Note that in Mac or linux, you can use command line to check SHA256 of a string:
+echo -n "foo" | shasum -a 256
+
+Additional Questions
+How can you scale your implementation?
+How did you deploy this application? How can you improve this process and make it easy to maintain?
+
+Please submit your code by email to ﻿selim@cpaths.org﻿ with a small ReadMe file describing how to run your code and explaining your answers to Additional Questions. Please zip everything into one file.
+

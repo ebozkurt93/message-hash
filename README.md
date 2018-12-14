@@ -1,3 +1,5 @@
+URL: https://message-hash-czvwftniur.now.sh/
+
 ### How it works
 
 - Given a message, just hashes and returns, meanwhile stores hash and message.
